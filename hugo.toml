@@ -1,0 +1,54 @@
+baseURL = "https://thinkloop.co/"
+languageCode = "en-us"
+title = "thinkloop"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "brvillalva"
+  description = "In solitude, where we are least alone."
+  github = "verbivoyeurista"
+  linkedin = "brittneyrvillalva"
+  tumblr = "MeiK2333"
+  email = "catswithsocks@icloud.com"
+  url = "https://meik2333.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "✨"
+  favicon = "/images/tech-cat-2.png"
+  avatar = "/images/tech-cat-2.png"
+  headerIcon = "/images/GitHub-Mark-Light-32px.png"
+  location = "Chicago"
+  enableGitalk = true
+  custom_css = ["css/custom.css"]
+  custom_js = ["js/custom.js"]
+
+  [params.gitalk]
+    clientID = "Your client ID"
+    clientSecret = "Your client secret"
+    repo = "repo"
+    owner = "MeiK2333"
+    admin = "MeiK2333"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/meik2333"
+  [[params.links]]
+    title = "Link2"
+    href = "https://meik2333.com"
+    icon = "https://meik2333.com/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-123456-789"
