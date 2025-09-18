@@ -10,9 +10,9 @@ pygmentsUseClasses = true
   description = "In solitude, where we are least alone."
   github = "verbivoyeurista"
   linkedin = "brittneyrvillalva"
-  tumblr = "MeiK2333"
+  tumblr = "brivil"
   email = "catswithsocks@icloud.com"
-  url = "https://meik2333.com"
+  url = "https://thinkloop.co"
   keywords = "blog, google analytics"
   rss = true
   lastmod = true
@@ -29,8 +29,8 @@ pygmentsUseClasses = true
     clientID = "Your client ID"
     clientSecret = "Your client secret"
     repo = "repo"
-    owner = "MeiK2333"
-    admin = "MeiK2333"
+    owner = "brv"
+    admin = "brv"
     id = "location.pathname"
     labels = "gitalk"
     perPage = 15
@@ -40,7 +40,7 @@ pygmentsUseClasses = true
 
   [[params.links]]
     title = "Link"
-    href = "https://github.com/meik2333"
+    href = "https://github.com/verbivoyeurista"
   [[params.links]]
     title = "Link2"
     href = "https://meik2333.com"
